@@ -1,0 +1,22 @@
+
+.maindiv{
+    display: flex;
+    border-top: 50%;
+    justify-content: center;
+    height: 700px;
+    border: 1px solid red;
+    margin-top: 690px;
+}
+
+.logo{
+    position: absolute;
+    height: 17em;
+    width: auto;
+}
+
+.searchbar{
+    margin: auto 0;
+    height: 69px;
+    width: 1000px;
+}
+ 
