@@ -2,11 +2,63 @@
 <html>
     <head>
         <link rel="stylesheet" href="googlehomepage.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+
     </head>
     <body>
+        <div class= topdiv>
+            <div id="toplinksleft-div">
+                <a href="https://about.google/?fg=1&utm_source=google-DE&utm_medium=referral&utm_campaign=hp-header" class="text-links left-link" id="aboutlink">About</a>
+                <a href="https://example.com/" class="text-links left-link" id="storelink">Store </a>
+
+            </div>
+            <div id="toprightsymbols">
+                <div id="appsicon-div">
+                    <!-- <span class="material-icons-outlined" >apps</span> -->
+                    <input type="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHAjE_kztwN0nTHkaLXKSg4IpjqBUeLG-U6-HbaRw26OJZkm0TB6k9rw1gp99y7mKmI8E&usqp=CAU" id="appsicon-input">
+                </div>
+                <div id="accountlogo-div">
+                    <input type="image" src="https://lh3.googleusercontent.com/ogw/ADea4I4vvi3Zh7RmaxffboErwurIHPEa_-elfCyZmoTw=s32-c-mo" id="accountlogo-btn">
+                </div>
+            </div>
+            <div id="toplinksright-div">
+                <a href="https://gmail.com/" class="text-links right-link" id="gmaillink">Gmail</a>
+                <a href="https://www.google.de/imghp?hl=en&authuser=0&ogbl" class="text-links right-link" id="imageslink">Images</a>
+            </div>
+        </div>
         <div class="maindiv">
             <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" class="logo">
-            <input class="searchbar">
+            <div>
+                <div class="icon-div" >
+                    <span class="material-icons">search</span>
+                    <span class="material-icons" id="mic-icon">mic</span>
+                </div>
+
+                <div class= "searchbar-div">
+                    <input class="searchbar">
+                </div>
+                <div id="button-div">
+                    <input type="button" class="button" id="searchbutton" value="Google Search">
+                    <input type="button" class="button" value="I'm Feeling Lucky">
+                </div>
+            </div>
+            
+        </div>
+
+        <div id="bottomdiv">
+            <div id="bottomlinksleft-div">
+                <a href="#" class="text-links bottom-link left-link">Advertisting</a>
+                <a href="#" class="text-links bottom-link left-link">Business</a>
+                <a href="#" class="text-links bottom-link left-link">How Search works</a>
+            </div>
+            <div id="bottomlinksright-div">
+                <a href="#" class="text-links bottom-link right-link">Privacy</a>
+                <a href="#" class="text-links bottom-link right-link">Terms</a>
+                <a href="#" class="text-links bottom-link right-link">Settings</a>
+            </div>
+        </div>
+            
         </div>
     </body>
 </html>

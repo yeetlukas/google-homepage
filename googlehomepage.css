@@ -1,22 +1,186 @@
+.topdiv{
+    margin-top: 20px;
+    height: 50px;
+}
+.text-links{
+    font-size: 17px;
+    font-family: sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+.text-links:hover{
+    text-decoration-line: underline;
+}
+
+#toplinksleft-div{
+    display: inline-block;
+    width: 200px;
+    padding-top: 10px;
+}
+
+#toplinksright-div{
+    float: right;
+    padding-top: 10px;
+}
+
+#toprightsymbols{
+    width: 100px;
+    height: 100px;
+    float: right;
+}
+
+.left-link{
+    padding-left: 25px;
+}
+.right-link{
+    padding-right: 25px;
+}
+
+/* #aboutlink{
+    padding-left: 25px;
+}
+#storelink{
+    padding-left: 25px;
+}
+#gmaillink{
+    padding-right: 25px;
+}
+#imageslink{
+    padding-right: 25px;
+} */
+
+#appsicon-div{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 13px;
+}
+
+#appsicon-input{
+    width: 15px;
+    height: 15px;
+}
+
+#accountlogo-div{
+    height: 35px;
+    width: 35px;
+    display: inline-block;
+    border-radius: 50%;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+#accountlogo-div:hover{
+    border: 1px black;
+    box-shadow: grey;
+}
+
+#accountlogo-img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    right:auto;
+}
 
 .maindiv{
     display: flex;
     border-top: 50%;
     justify-content: center;
-    height: 700px;
-    border: 1px solid red;
-    margin-top: 690px;
+    height: 400px;
+    margin-top: 222px;
 }
 
 .logo{
+    margin-top: 22px;
     position: absolute;
-    height: 17em;
+    height: 7em;
     width: auto;
 }
 
-.searchbar{
-    margin: auto 0;
-    height: 69px;
-    width: 1000px;
+.searchbar-div{
+    height: 50px;
+    width: 700px;
+    margin-top: 150px;
+    border: 1px solid rgb(187, 187, 187);
+    border-radius: 40px 40px 40px 40px;
 }
- 
+
+.searchbar{
+    border: none;
+    width: 600px;
+    margin-top: 12.5px;
+    padding-left: 42px;
+    padding-right: 42px;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: start;
+    border-radius: 40px 40px 40px 40px;
+    outline: 0;
+}
+
+.searchbar-div:hover{
+    box-shadow: 1px 1px rgb(169, 169, 169);
+}
+
+/* .material-icons.md-36 { font-size: 36px; } */
+
+.icon-div{
+    position: relative;
+    top: 192px;
+    left: 10px;
+    pointer-events: none;
+}
+#mic-icon{
+    position: relative;
+    left: 620px;
+}
+
+#button-div{
+    display: flex;
+    justify-content:space-evenly;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 25px;
+    height: 50px;
+    left: 75px;
+}
+
+.button{
+    height: 42px;
+    width: 150px;
+    font-size: 15px;
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+    border-color: #ffffff00;
+    background-color: white;
+}
+.button:hover{
+    border-color: rgb(187, 187, 187);
+    border-width: 1px;
+    box-shadow: 0.5px 0.5px rgb(169, 169, 169);
+}
+
+#bottomdiv{
+    width: 99.5%;
+    height: 55px;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10px;
+}
+
+#bottomlinksleft-div{
+    display: inline-block;
+    width: 400px;
+    padding-top: 20px;
+}
+#bottomlinksright-div{
+    float: right;
+    padding-top: 10px;
+}
+
+.bottom-link{
+    color: rgba(66, 66, 66, 0.666);
+}
